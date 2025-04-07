@@ -1,4 +1,4 @@
-package pacotes.teste;
+
 public class Variavei {
     public static void main(String[] args) {
     
