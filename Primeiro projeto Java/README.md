@@ -16,7 +16,14 @@
 - O operador "+" serve para concatenar strings;
 - Se numa variavel de valor numerico, for necessário torna la negativa, colacasse apenas o operador "-" na frente, mas para tornala positiva deve mutiplicar o valor da variavel por -1;
 - Operador "++" é igual a +1 (incrementar), e "--" igual a -1 
-- Operadores ternários "?:" são como um IF(?) - ESLSE(:), em operações simples de uma linha; EX:
-  a=5
-  b=6
-  String resultado = ?(a==b) "verdadeiro" : "falso";
+- Operadores ternários "?:" são como um IF(?) - ELSE(:), em operações simples de uma linha; EX:
+   int a=5;
+   int b=6;
+   String resultado = a==b ?"verdadeiro" : "falso";
+- Operadores relacionais: ==, <, >, !=(diferente), são usados para comparar valores.
+    - Para comparar objetos, utiliza a expressão "equals";
+- Operadores lógicos: && (e) e || (ou), onde && serve para verificar se todas as variáveis da expressão são verdadeiras, e || se pelo menos uma das váriáveis é verdadira;
+
+                            == MÉTODOS ==
+- Métodos são como funções/ações ou subtarefas de uma classe;
+- Tipo void não precisa de retorno (return);
